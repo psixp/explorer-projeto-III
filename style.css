@@ -95,3 +95,45 @@ footer {
     bottom: 20px;
 
 }
+
+@media (max-width: 400px) {
+    .page {
+        width: 100vw;
+    }
+
+    main {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    footer {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    #padlock {
+        max-width: 20px;
+        position:relative;
+        bottom: 0;
+        left: 50vw;
+    }
+
+    .line {
+        border: 1px solid #00BFA6;
+        background-color: #00BFA6;
+        width: 90vw;
+        height: 0px;
+        margin: 0px auto 8px;
+        padding: 0px;
+    }
+}
